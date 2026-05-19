@@ -1,9 +1,10 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//FIFA World Cup 2026//PT-BR
-CALSCALE:GREGORIAN
+PRODID:-//FIFA World Cup 2026//EN
 METHOD:PUBLISH
+CALSCALE:GREGORIAN
 X-WR-CALNAME:FIFA World Cup 2026
+X-PUBLISHED-TTL:PT6H
 X-WR-TIMEZONE:America/Sao_Paulo
 BEGIN:VTIMEZONE
 TZID:America/Sao_Paulo
@@ -21,8 +22,8 @@ DTSTAMP:20260518T174525Z
 DTSTART;TZID=America/Sao_Paulo:20260611T160000
 DTEND;TZID=America/Sao_Paulo:20260611T180000
 SUMMARY:🇲🇽 Mexico vs 🇿🇦 South Africa
-LOCATION:Mexico City Stadium (Stadium Azteca), Mexico City, Mexico
-DESCRIPTION:Group A -  Group Stage
+LOCATION:Mexico City Stadium, Mexico City, Mexico
+DESCRIPTION:Group A - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -39,8 +40,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260611T230000
 DTEND;TZID=America/Sao_Paulo:20260612T010000
 SUMMARY:🇰🇷 Korea Republic vs 🇨🇿 Czech Republic
-LOCATION:Akron Stadium, Zapopan, Jalisco, Mexico
-DESCRIPTION:Group A -  Group Stage
+LOCATION:Guadalajara Stadium, Guadalajara, Mexico
+DESCRIPTION:Group A - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -57,8 +58,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260612T160000
 DTEND;TZID=America/Sao_Paulo:20260612T180000
 SUMMARY:🇨🇦 Canada vs 🇧🇦 Bosnia and Herzegovina
-LOCATION:Toronto Stadium, Toronto, Ontario, Canada
-DESCRIPTION:Group B -  Group Stage
+LOCATION:Toronto Stadium, Toronto, Canada
+DESCRIPTION:Group B - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -75,8 +76,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260613T160000
 DTEND;TZID=America/Sao_Paulo:20260613T180000
 SUMMARY:🇶🇦 Qatar vs 🇨🇭 Switzerland
-LOCATION:San Francisco Bay Area Stadium, Santa Clara, California, USA
-DESCRIPTION:Group B -  Group Stage
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
+DESCRIPTION:Group B - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -93,8 +94,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260613T190000
 DTEND;TZID=America/Sao_Paulo:20260613T210000
 SUMMARY:🇧🇷 Brazil vs 🇲🇦 Morocco
-LOCATION:New York/New Jersey Stadium, East Rutherford, New Jersey, USA
-DESCRIPTION:Group C -  Group Stage
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
+DESCRIPTION:Group C - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -111,8 +112,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260612T220000
 DTEND;TZID=America/Sao_Paulo:20260613T000000
 SUMMARY:🇺🇸 United States vs 🇵🇾 Paraguay
-LOCATION:Los Angeles Stadium, Inglewood, California, USA
-DESCRIPTION:Group D -  Group Stage
+LOCATION:Los Angeles Stadium, Inglewood, USA
+DESCRIPTION:Group D - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -129,8 +130,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260614T010000
 DTEND;TZID=America/Sao_Paulo:20260614T030000
 SUMMARY:🇦🇺 Australia vs 🇹🇷 Türkiye
-LOCATION:BC Place Vancouver, Vancouver, British Colombia, Canada
-DESCRIPTION:Group D -  Group Stage
+LOCATION:Vancouver Stadium, Vancouver, Canada
+DESCRIPTION:Group D - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -147,8 +148,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260613T220000
 DTEND;TZID=America/Sao_Paulo:20260614T000000
 SUMMARY:🇭🇹 Haiti vs 🏴 Scotland
-LOCATION:Boston Stadium, Foxborough, Massachusetts, USA
-DESCRIPTION:Group C -  Group Stage
+LOCATION:Boston Stadium, Foxborough, USA
+DESCRIPTION:Group C - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -165,8 +166,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260614T140000
 DTEND;TZID=America/Sao_Paulo:20260614T160000
 SUMMARY:🇩🇪 Germany vs 🇨🇼 Curaçao
-LOCATION:Houston Stadium, Houston, Texas, USA
-DESCRIPTION:Group E -  Group Stage
+LOCATION:Houston Stadium, Houston, USA
+DESCRIPTION:Group E - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -181,10 +182,10 @@ BEGIN:VEVENT
 UID:c3f203bdd49a312114b9af8dbdd52af2d28b866d@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260614T170000
-DTEND;TZID=America/Sao_Paulo:20260614T170000
+DTEND;TZID=America/Sao_Paulo:20260614T190000
 SUMMARY:🇳🇱 Netherlands vs 🇯🇵 Japan
-LOCATION:Dallas Stadium, Arlington, Texas, USA
-DESCRIPTION:Group F -  Group Stage
+LOCATION:Dallas Stadium, Arlington, USA
+DESCRIPTION:Group F - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -202,7 +203,7 @@ DTSTART;TZID=America/Sao_Paulo:20260614T200000
 DTEND;TZID=America/Sao_Paulo:20260614T220000
 SUMMARY:🇨🇮 Côte d'Ivoire vs 🇪🇨 Ecuador
 LOCATION:Philadelphia Stadium, Philadelphia, Pennsylvania, USA
-DESCRIPTION:Group E -  Group Stage
+DESCRIPTION:Group E - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -219,8 +220,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260614T230000
 DTEND;TZID=America/Sao_Paulo:20260615T010000
 SUMMARY:🇸🇪 Sweden vs 🇹🇳 Tunisia
-LOCATION:Stadium Monterrey, Guadalupe, Nuevo Leon, Mexico
-DESCRIPTION:Group F -  Group Stage
+LOCATION:Monterrey Stadium, Monterrey, Mexico
+DESCRIPTION:Group F - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -237,8 +238,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260615T160000
 DTEND;TZID=America/Sao_Paulo:20260615T180000
 SUMMARY:🇧🇪 Belgium vs 🇪🇬 Egypt
-LOCATION:Seattle Stadium, Seattle, Washington, USA
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Seattle Stadium, Seattle, USA
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -255,8 +256,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260615T130000
 DTEND;TZID=America/Sao_Paulo:20260615T150000
 SUMMARY:🇪🇸 Spain vs 🇨🇻 Cabo Verde
-LOCATION:Atlanta Stadium, Atlanta, Georgia, USA
-DESCRIPTION:Group H -  Group Stage
+LOCATION:Atlanta Stadium, Atlanta, USA
+DESCRIPTION:Group H - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -273,8 +274,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260615T190000
 DTEND;TZID=America/Sao_Paulo:20260615T210000
 SUMMARY:🇸🇦 Saudi Arabia vs 🇺🇾 Uruguay
-LOCATION:Miami Stadium, Miami Gardens, Florida, USA
-DESCRIPTION:Group H -  Group Stage
+LOCATION:Miami Stadium, Miami Gardens, USA
+DESCRIPTION:Group H - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -291,8 +292,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260615T220000
 DTEND;TZID=America/Sao_Paulo:20260616T000000
 SUMMARY:🇮🇷 IR Iran vs 🇳🇿 New Zealand
-LOCATION:Los Angeles Stadium (SoFi Stadium), Los Angeles, USA
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Los Angeles Stadium, Inglewood, USA
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -309,8 +310,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260616T160000
 DTEND;TZID=America/Sao_Paulo:20260616T180000
 SUMMARY:🇫🇷 France vs 🇸🇳 Senegal
-LOCATION:New York New Jersey Stadium (MetLife Stadium), East Rutherford, USA
-DESCRIPTION:Group I -  Group Stage
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
+DESCRIPTION:Group I - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -327,8 +328,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260616T190000
 DTEND;TZID=America/Sao_Paulo:20260616T210000
 SUMMARY:🇮🇶 Iraq vs 🇳🇴 Norway
-LOCATION:Boston Stadium (Gillette Stadium), Foxborough, USA
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Boston Stadium, Foxborough, USA
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -345,8 +346,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260616T220000
 DTEND;TZID=America/Sao_Paulo:20260617T000000
 SUMMARY:🇦🇷 Argentina vs 🇩🇿 Algeria
-LOCATION:Kansas City Stadium (Arrowhead Stadium), Kansas City, USA
-DESCRIPTION:Group J -  Group Stage
+LOCATION:Kansas City Stadium, Kansas City, USA
+DESCRIPTION:Group J - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -363,8 +364,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260617T010000
 DTEND;TZID=America/Sao_Paulo:20260617T030000
 SUMMARY:🇦🇹 Austria vs 🇯🇴 Jordan
-LOCATION:San Francisco Bay Area Stadium (Levi's Stadium), Santa Clara, USA
-DESCRIPTION:Group J -  Group Stage
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
+DESCRIPTION:Group J - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -381,8 +382,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260617T140000
 DTEND;TZID=America/Sao_Paulo:20260617T160000
 SUMMARY:🇵🇹 Portugal vs 🇨🇩 Congo DR
-LOCATION:Houston Stadium (NRG Stadium), Houston, USA
-DESCRIPTION:Group K -  Group Stage
+LOCATION:Houston Stadium, Houston, USA
+DESCRIPTION:Group K - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -399,8 +400,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260617T170000
 DTEND;TZID=America/Sao_Paulo:20260617T190000
 SUMMARY:🏴 England vs 🇭🇷 Croatia
-LOCATION:Dallas Stadium (AT&T Stadium), Arlington, USA
-DESCRIPTION:Group L -  Group Stage
+LOCATION:Dallas Stadium, Arlington, USA
+DESCRIPTION:Group L - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -417,8 +418,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260618T130000
 DTEND;TZID=America/Sao_Paulo:20260618T150000
 SUMMARY:🇨🇿 Czech Republic vs 🇿🇦 South Africa
-LOCATION:Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, USA
-DESCRIPTION:Group A -  Group Stage
+LOCATION:Atlanta Stadium, Atlanta, USA
+DESCRIPTION:Group A - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -435,8 +436,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260618T160000
 DTEND;TZID=America/Sao_Paulo:20260618T180000
 SUMMARY:🇨🇭 Switzerland vs 🇧🇦 Bosnia and Herzegovina
-LOCATION:Los Angeles Stadium (SoFi Stadium), Los Angeles, USA
-DESCRIPTION:Group B -  Group Stage
+LOCATION:Los Angeles Stadium, Inglewood, USA
+DESCRIPTION:Group B - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -453,8 +454,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260618T190000
 DTEND;TZID=America/Sao_Paulo:20260618T210000
 SUMMARY:🇨🇦 Canada vs 🇶🇦 Qatar
-LOCATION:BC Place Vancouver, Vancouver, Canada
-DESCRIPTION:Group B -  Group Stage
+LOCATION:Vancouver Stadium, Vancouver, Canada
+DESCRIPTION:Group B - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -471,8 +472,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260617T230000
 DTEND;TZID=America/Sao_Paulo:20260618T010000
 SUMMARY:🇺🇿 Uzbekistan vs 🇨🇴 Colombia
-LOCATION:Mexico City Stadium (Stadium Azteca), Mexico City, Mexico
-DESCRIPTION:Group K -  Group Stage
+LOCATION:Mexico City Stadium, Mexico City, Mexico
+DESCRIPTION:Group K - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -489,8 +490,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260617T200000
 DTEND;TZID=America/Sao_Paulo:20260617T220000
 SUMMARY:🇬🇭 Ghana vs 🇵🇦 Panama
-LOCATION:Toronto Stadium (BMO Field), Toronto, Canada
-DESCRIPTION:Group L -  Group Stage
+LOCATION:Toronto Stadium, Toronto, Canada
+DESCRIPTION:Group L - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -507,8 +508,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260618T220000
 DTEND;TZID=America/Sao_Paulo:20260619T000000
 SUMMARY:🇲🇽 Mexico vs 🇰🇷 Korea Republic
-LOCATION:Mexico City Stadium (Stadium Azteca), Mexico City, Mexico
-DESCRIPTION:Group A -  Group Stage
+LOCATION:Mexico City Stadium, Mexico City, Mexico
+DESCRIPTION:Group A - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -525,8 +526,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260619T190000
 DTEND;TZID=America/Sao_Paulo:20260619T210000
 SUMMARY:🏴 Scotland vs 🇲🇦 Morocco
-LOCATION:Boston Stadium (Gillette Stadium), Foxborough, USA
-DESCRIPTION:Group C -  Group Stage
+LOCATION:Boston Stadium, Foxborough, USA
+DESCRIPTION:Group C - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -543,8 +544,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260619T160000
 DTEND;TZID=America/Sao_Paulo:20260619T180000
 SUMMARY:🇺🇸 United States vs 🇦🇺 Australia
-LOCATION:Seattle Stadium (Lumen Field), Seattle, USA
-DESCRIPTION:Group D -  Group Stage
+LOCATION:Seattle Stadium, Seattle, USA
+DESCRIPTION:Group D - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -561,8 +562,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260619T213000
 DTEND;TZID=America/Sao_Paulo:20260619T231500
 SUMMARY:🇧🇷 Brazil vs 🇭🇹 Haiti
-LOCATION:Philadelphia Stadium (Lincoln Financial Field), Philadelphia, USA
-DESCRIPTION:Group C -  Group Stage
+LOCATION:Philadelphia Stadium, Philadelphia, USA
+DESCRIPTION:Group C - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -579,8 +580,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260620T000000
 DTEND;TZID=America/Sao_Paulo:20260620T020000
 SUMMARY:🇹🇷 Türkiye vs 🇵🇾 Paraguay
-LOCATION:San Francisco Bay Area Stadium (Levi's Stadium), Santa Clara, USA
-DESCRIPTION:Group D -  Group Stage
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
+DESCRIPTION:Group D - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -597,8 +598,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260620T170000
 DTEND;TZID=America/Sao_Paulo:20260620T190000
 SUMMARY:🇩🇪 Germany vs 🇨🇮 Côte d'Ivoire
-LOCATION:Toronto Stadium (BMO Field), Toronto, Canada
-DESCRIPTION:Group E -  Group Stage
+LOCATION:Toronto Stadium, Toronto, Canada
+DESCRIPTION:Group E - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -615,8 +616,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260620T140000
 DTEND;TZID=America/Sao_Paulo:20260620T160000
 SUMMARY:🇳🇱 Netherlands vs 🇸🇪 Sweden
-LOCATION:Houston Stadium (NRG Stadium), Houston, USA
-DESCRIPTION:Group F -  Group Stage
+LOCATION:Houston Stadium, Houston, USA
+DESCRIPTION:Group F - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -633,8 +634,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260620T210000
 DTEND;TZID=America/Sao_Paulo:20260620T230000
 SUMMARY:🇪🇨 Ecuador vs 🇨🇼 Curaçao
-LOCATION:Kansas City Stadium (Arrowhead Stadium), Kansas City, USA
-DESCRIPTION:Group E -  Group Stage
+LOCATION:Kansas City Stadium, Kansas City, USA
+DESCRIPTION:Group E - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -651,8 +652,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260621T010000
 DTEND;TZID=America/Sao_Paulo:20260621T030000
 SUMMARY:🇹🇳 Tunisia vs 🇯🇵 Japan
-LOCATION:Vancouver Stadium (BC Place), Vancouver, Canada
-DESCRIPTION:Group F -  Group Stage
+LOCATION:Vancouver Stadium, Vancouver, Canada
+DESCRIPTION:Group F - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -669,8 +670,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260621T160000
 DTEND;TZID=America/Sao_Paulo:20260621T180000
 SUMMARY:🇧🇪 Belgium vs 🇮🇷 IR Iran
-LOCATION:Los Angeles Stadium (SoFi Stadium), Los Angeles, USA
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Los Angeles Stadium, Inglewood, USA
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -687,8 +688,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260621T130000
 DTEND;TZID=America/Sao_Paulo:20260621T150000
 SUMMARY:🇪🇸 Spain vs 🇸🇦 Saudi Arabia
-LOCATION:Kansas City Stadium (Arrowhead Stadium), Kansas City, USA
-DESCRIPTION:Group H -  Group Stage
+LOCATION:Kansas City Stadium, Kansas City, USA
+DESCRIPTION:Group H - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -705,8 +706,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260621T190000
 DTEND;TZID=America/Sao_Paulo:20260621T210000
 SUMMARY:🇺🇾 Uruguay vs 🇨🇻 Cabo Verde
-LOCATION:Miami Stadium (Hard Rock Stadium), Miami Gardens, USA
-DESCRIPTION:Group H -  Group Stage
+LOCATION:Miami Stadium, Miami Gardens, USA
+DESCRIPTION:Group H - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -723,8 +724,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260621T220000
 DTEND;TZID=America/Sao_Paulo:20260622T000000
 SUMMARY:🇳🇿 New Zealand vs 🇪🇬 Egypt
-LOCATION:BC Place Vancouver, Vancouver, Canada
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Vancouver Stadium, Vancouver, Canada
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -741,8 +742,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260622T180000
 DTEND;TZID=America/Sao_Paulo:20260622T200000
 SUMMARY:🇫🇷 France vs 🇮🇶 Iraq
-LOCATION:Philadelphia Stadium (Lincoln Financial Field), Philadelphia, USA
-DESCRIPTION:Group I -  Group Stage
+LOCATION:Philadelphia Stadium, Philadelphia, USA
+DESCRIPTION:Group I - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -759,8 +760,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260622T140000
 DTEND;TZID=America/Sao_Paulo:20260622T160000
 SUMMARY:🇦🇷 Argentina vs 🇦🇹 Austria
-LOCATION:Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, USA
-DESCRIPTION:Group J -  Group Stage
+LOCATION:Atlanta Stadium, Atlanta, USA
+DESCRIPTION:Group J - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -777,8 +778,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260622T210000
 DTEND;TZID=America/Sao_Paulo:20260622T230000
 SUMMARY:🇳🇴 Norway vs 🇸🇳 Senegal
-LOCATION:Boston Stadium (Gillette Stadium), Foxborough, USA
-DESCRIPTION:Group I -  Group Stage
+LOCATION:Boston Stadium, Foxborough, USA
+DESCRIPTION:Group I - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -795,8 +796,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260623T000000
 DTEND;TZID=America/Sao_Paulo:20260623T020000
 SUMMARY:🇯🇴 Jordan vs 🇩🇿 Algeria
-LOCATION:Monterrey Stadium (Stadium BBVA), Monterrey, Mexico
-DESCRIPTION:Group J -  Group Stage
+LOCATION:Monterrey Stadium, Monterrey, Mexico
+DESCRIPTION:Group J - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -813,8 +814,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260623T140000
 DTEND;TZID=America/Sao_Paulo:20260623T160000
 SUMMARY:🇵🇹 Portugal vs 🇺🇿 Uzbekistan
-LOCATION:Toronto Stadium (BMO Field), Toronto, Canada
-DESCRIPTION:Group K -  Group Stage
+LOCATION:Toronto Stadium, Toronto, Canada
+DESCRIPTION:Group K - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -831,8 +832,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260623T170000
 DTEND;TZID=America/Sao_Paulo:20260623T190000
 SUMMARY:🏴 England vs 🇬🇭 Ghana
-LOCATION:San Francisco Bay Area Stadium (Levi's Stadium), Santa Clara, USA
-DESCRIPTION:Group L -  Group Stage
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
+DESCRIPTION:Group L - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -849,8 +850,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260624T160000
 DTEND;TZID=America/Sao_Paulo:20260624T180000
 SUMMARY:🇨🇭 Switzerland vs 🇨🇦 Canada
-LOCATION:BC Place Vancouver, Vancouver, Canada
-DESCRIPTION:Group B -  Group Stage
+LOCATION:Vancouver Stadium, Vancouver, Canada
+DESCRIPTION:Group B - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -867,8 +868,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260624T160000
 DTEND;TZID=America/Sao_Paulo:20260624T180000
 SUMMARY:🇧🇦 Bosnia and Herzegovina vs 🇶🇦 Qatar
-LOCATION:Seattle Stadium (Lumen Field), Seattle, USA
-DESCRIPTION:Group B -  Group Stage
+LOCATION:Seattle Stadium, Seattle, USA
+DESCRIPTION:Group B - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -885,8 +886,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260624T190000
 DTEND;TZID=America/Sao_Paulo:20260624T210000
 SUMMARY:🇲🇦 Morocco vs 🇭🇹 Haiti
-LOCATION:Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, USA
-DESCRIPTION:Group C -  Group Stage
+LOCATION:Atlanta Stadium, Atlanta, USA
+DESCRIPTION:Group C - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -903,8 +904,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260624T190000
 DTEND;TZID=America/Sao_Paulo:20260624T210000
 SUMMARY:🏴 Scotland vs 🇧🇷 Brazil
-LOCATION:Miami Stadium (Hard Rock Stadium), Miami Gardens, USA
-DESCRIPTION:Group C -  Group Stage
+LOCATION:Miami Stadium, Miami Gardens, USA
+DESCRIPTION:Group C - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -921,8 +922,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260623T230000
 DTEND;TZID=America/Sao_Paulo:20260624T010000
 SUMMARY:🇨🇴 Colombia vs 🇨🇩 Congo DR
-LOCATION:Guadalajara Stadium (Akron Stadium), Guadalajara, Mexico
-DESCRIPTION:Group K -  Group Stage
+LOCATION:Guadalajara Stadium, Guadalajara, Mexico
+DESCRIPTION:Group K - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -939,8 +940,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260623T200000
 DTEND;TZID=America/Sao_Paulo:20260623T220000
 SUMMARY:🇵🇦 Panama vs 🇭🇷 Croatia
-LOCATION:Toronto Stadium (BMO Field), Toronto, Canada
-DESCRIPTION:Group L -  Group Stage
+LOCATION:Toronto Stadium, Toronto, Canada
+DESCRIPTION:Group L - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -957,8 +958,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260624T220000
 DTEND;TZID=America/Sao_Paulo:20260625T000000
 SUMMARY:🇿🇦 South Africa vs 🇰🇷 Korea Republic
-LOCATION:San Francisco Bay Area Stadium (Levi's Stadium), Santa Clara, USA
-DESCRIPTION:Group A -  Group Stage
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
+DESCRIPTION:Group A - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -973,10 +974,10 @@ BEGIN:VEVENT
 UID:72cf2b2f7adbca04cba42202256c12472aba8b55@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260624T220000
-DTEND;TZID=America/Sao_Paulo:20260625T00000
+DTEND;TZID=America/Sao_Paulo:20260625T000000
 SUMMARY:🇨🇿 Czech Republic vs 🇲🇽 Mexico
-LOCATION:Mexico City Stadium (Stadium Azteca), Mexico City, Mexico
-DESCRIPTION:Group A -  Group Stage
+LOCATION:Mexico City Stadium, Mexico City, Mexico
+DESCRIPTION:Group A - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -993,8 +994,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260625T170000
 DTEND;TZID=America/Sao_Paulo:20260625T190000
 SUMMARY:🇨🇼 Curaçao vs 🇨🇮 Côte d'Ivoire
-LOCATION:Philadelphia Stadium (Lincoln Financial Field), Philadelphia, USA
-DESCRIPTION:Group E -  Group Stage
+LOCATION:Philadelphia Stadium, Philadelphia, USA
+DESCRIPTION:Group E - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1011,8 +1012,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260625T170000
 DTEND;TZID=America/Sao_Paulo:20260625T190000
 SUMMARY:🇪🇨 Ecuador vs 🇩🇪 Germany
-LOCATION:New York New Jersey Stadium (MetLife Stadium), East Rutherford, USA
-DESCRIPTION:Group E -  Group Stage
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
+DESCRIPTION:Group E - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1029,8 +1030,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260625T230000
 DTEND;TZID=America/Sao_Paulo:20260626T010000
 SUMMARY:🇵🇾 Paraguay vs 🇦🇺 Australia
-LOCATION:San Francisco Bay Area Stadium (Levi's Stadium), Santa Clara, USA
-DESCRIPTION:Group D -  Group Stage
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
+DESCRIPTION:Group D - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1047,8 +1048,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260625T230000
 DTEND;TZID=America/Sao_Paulo:20260626T010000
 SUMMARY:🇹🇷 Türkiye vs 🇺🇸 United States
-LOCATION:Los Angeles Stadium (SoFi Stadium), Los Angeles, USA
-DESCRIPTION:Group D -  Group Stage
+LOCATION:Los Angeles Stadium, Inglewood, USA
+DESCRIPTION:Group D - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1065,8 +1066,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260625T200000
 DTEND;TZID=America/Sao_Paulo:20260625T220000
 SUMMARY:🇯🇵 Japan vs 🇸🇪 Sweden
-LOCATION:Dallas Stadium (AT&T Stadium), Arlington, USA
-DESCRIPTION:Group F -  Group Stage
+LOCATION:Dallas Stadium, Arlington, USA
+DESCRIPTION:Group F - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1083,8 +1084,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260625T200000
 DTEND;TZID=America/Sao_Paulo:20260625T220000
 SUMMARY:🇹🇳 Tunisia vs 🇳🇱 Netherlands
-LOCATION:Kansas City Stadium (Arrowhead Stadium), Kansas City, USA
-DESCRIPTION:Group F -  Group Stage
+LOCATION:Kansas City Stadium, Kansas City, USA
+DESCRIPTION:Group F - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1101,8 +1102,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260626T160000
 DTEND;TZID=America/Sao_Paulo:20260626T180000
 SUMMARY:🇳🇴 Norway vs 🇫🇷 France
-LOCATION:Boston Stadium (Gillette Stadium), Foxborough, USA
-DESCRIPTION:Group I -  Group Stage
+LOCATION:Boston Stadium, Foxborough, USA
+DESCRIPTION:Group I - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1119,8 +1120,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260626T160000
 DTEND;TZID=America/Sao_Paulo:20260626T180000
 SUMMARY:🇸🇳 Senegal vs 🇮🇶 Iraq
-LOCATION:Toronto Stadium (BMO Field), Toronto, Canada
-DESCRIPTION:Group I -  Group Stage
+LOCATION:Toronto Stadium, Toronto, Canada
+DESCRIPTION:Group I - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1137,8 +1138,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T000000
 DTEND;TZID=America/Sao_Paulo:20260627T020000
 SUMMARY:🇪🇬 Egypt vs 🇮🇷 IR Iran
-LOCATION:Seattle Stadium (Lumen Field), Seattle, USA
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Seattle Stadium, Seattle, USA
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1155,8 +1156,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T000000
 DTEND;TZID=America/Sao_Paulo:20260627T020000
 SUMMARY:🇳🇿 New Zealand vs 🇧🇪 Belgium
-LOCATION:BC Place Vancouver, Vancouver, Canada
-DESCRIPTION:Group G -  Group Stage
+LOCATION:Vancouver Stadium, Vancouver, Canada
+DESCRIPTION:Group G - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1173,8 +1174,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260626T210000
 DTEND;TZID=America/Sao_Paulo:20260626T230000
 SUMMARY:🇨🇻 Cabo Verde vs 🇸🇦 Saudi Arabia
-LOCATION:Houston Stadium (NRG Stadium), Houston, USA
-DESCRIPTION:Group H -  Group Stage
+LOCATION:Houston Stadium, Houston, USA
+DESCRIPTION:Group H - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1191,8 +1192,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260626T210000
 DTEND;TZID=America/Sao_Paulo:20260626T230000
 SUMMARY:🇺🇾 Uruguay vs 🇪🇸 Spain
-LOCATION:Guadalajara Stadium (Akron Stadium), Guadalajara, Mexico
-DESCRIPTION:Group H -  Group Stage
+LOCATION:Guadalajara Stadium, Guadalajara, Mexico
+DESCRIPTION:Group H - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1209,8 +1210,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T180000
 DTEND;TZID=America/Sao_Paulo:20260627T200000
 SUMMARY:🇭🇷 Croatia vs 🇬🇭 Ghana
-LOCATION:Philadelphia Stadium (Lincoln Financial Field), Philadelphia, USA
-DESCRIPTION:Group L -  Group Stage
+LOCATION:Philadelphia Stadium, Philadelphia, USA
+DESCRIPTION:Group L - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1227,8 +1228,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T180000
 DTEND;TZID=America/Sao_Paulo:20260627T200000
 SUMMARY:🇵🇦 Panama vs 🏴 England
-LOCATION:New York New Jersey Stadium (MetLife Stadium), East Rutherford, USA
-DESCRIPTION:Group L -  Group Stage
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
+DESCRIPTION:Group L - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1245,8 +1246,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T230000
 DTEND;TZID=America/Sao_Paulo:20260628T010000
 SUMMARY:🇩🇿 Algeria vs 🇦🇹 Austria
-LOCATION:Kansas City Stadium (Arrowhead Stadium), Kansas City, USA
-DESCRIPTION:Group J -  Group Stage
+LOCATION:Kansas City Stadium, Kansas City, USA
+DESCRIPTION:Group J - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1263,8 +1264,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T230000
 DTEND;TZID=America/Sao_Paulo:20260628T010000
 SUMMARY:🇯🇴 Jordan vs 🇦🇷 Argentina
-LOCATION:Dallas Stadium (AT&T Stadium), Arlington, USA
-DESCRIPTION:Group J -  Group Stage
+LOCATION:Dallas Stadium, Arlington, USA
+DESCRIPTION:Group J - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1281,8 +1282,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T203000
 DTEND;TZID=America/Sao_Paulo:20260627T221500
 SUMMARY:🇨🇴 Colombia vs 🇵🇹 Portugal
-LOCATION:Monterrey Stadium (BBVA Stadium), Monterrey, Mexico
-DESCRIPTION:Group K -  Group Stage
+LOCATION:Monterrey Stadium, Monterrey, Mexico
+DESCRIPTION:Group K - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1299,8 +1300,8 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260627T203000
 DTEND;TZID=America/Sao_Paulo:20260627T221500
 SUMMARY:🇨🇩 Congo DR vs 🇺🇿 Uzbekistan
-LOCATION:Atlanta Stadium (Mercedes-Benz Stadium), Atlanta, USA
-DESCRIPTION:Group K -  Group Stage
+LOCATION:Atlanta Stadium, Atlanta, USA
+DESCRIPTION:Group K - Group Stage
 STATUS:CONFIRMED
 CLASS:PUBLIC
 SEQUENCE:4
@@ -1316,8 +1317,8 @@ UID:935682a23f1e59c58d2f4d91e29fbb1bef251deb@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260628T160000
 DTEND;TZID=America/Sao_Paulo:20260628T180000
-SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:SoFi Stadium, Los Angeles, California, USA
+SUMMARY:🏆 2º A vs 🏆 2º B
+LOCATION:Los Angeles Stadium, Inglewood, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1334,8 +1335,8 @@ UID:519269f076ca5d269b179903087c17c4ee4b5772@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260629T140000
 DTEND;TZID=America/Sao_Paulo:20260629T160000
-SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Gillette Stadium, Foxborough, Massachusetts, USA
+SUMMARY:🏆 1º C vs 🏆 2º F
+LOCATION:Boston Stadium, Foxborough, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1352,8 +1353,8 @@ UID:7c9b2dc360d7d08d9ef1e42a5bfc4341e59463d5@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260629T220000
 DTEND;TZID=America/Sao_Paulo:20260630T000000
-SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:NRG Stadium, Houston, Texas, USA
+SUMMARY:🏆 1º F vs 🏆 2º C
+LOCATION:Houston Stadium, Houston, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1369,9 +1370,9 @@ BEGIN:VEVENT
 UID:d1a7c388751b01053e65446b778ccaa99427824e@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260630T220000
-DTEND;TZID=America/Sao_Paulo:20260701T0000
-SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Estadio Azteca, Mexico City, Mexico
+DTEND;TZID=America/Sao_Paulo:20260701T000000
+SUMMARY:🏆 1º A vs 🏆 3º CEFHI
+LOCATION:Mexico City Stadium, Mexico City, Mexico
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1388,8 +1389,8 @@ UID:8c05397b07033a21183b71573c4076ca3f5241bb@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260701T210000
 DTEND;TZID=America/Sao_Paulo:20260701T230000
-SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Lumen Field, Seattle, Washington, USA
+SUMMARY:🏆 1º D vs 🏆 3º BEFIJ
+LOCATION:Seattle Stadium, Seattle, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1406,8 +1407,8 @@ UID:f1311b108b0cc5f1d2eaac83cac083840ee364ac@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260703T000000
 DTEND;TZID=America/Sao_Paulo:20260703T020000
-SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Lincoln Financial Field, Philadelphia, Pennsylvania, USA
+SUMMARY:🏆 1º B vs 🏆 3º EFGIJ
+LOCATION:Philadelphia Stadium, Philadelphia, Pennsylvania, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1425,7 +1426,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260704T140000
 DTEND;TZID=America/Sao_Paulo:20260704T160000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Lincoln Financial Field, Philadelphia, Pennsylvania, USA
+LOCATION:Philadelphia Stadium, Philadelphia, Pennsylvania, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1443,7 +1444,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260705T170000
 DTEND;TZID=America/Sao_Paulo:20260705T190000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Estadio Azteca, Mexico City, Mexico
+LOCATION:Mexico City Stadium, Mexico City, Mexico
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1461,7 +1462,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260705T210000
 DTEND;TZID=America/Sao_Paulo:20260705T230000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Hard Rock Stadium, Miami Gardens, Florida, USA
+LOCATION:Miami Stadium, Miami Gardens, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1479,7 +1480,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260706T210000
 DTEND;TZID=America/Sao_Paulo:20260706T230000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Mercedes-Benz Stadium, Atlanta, Georgia, USA
+LOCATION:Atlanta Stadium, Atlanta, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1497,7 +1498,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260709T170000
 DTEND;TZID=America/Sao_Paulo:20260709T190000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:FIFA World Cup 2026
+LOCATION:Boston Stadium, Foxborough, USA
 DESCRIPTION:Quarter-finals
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1515,7 +1516,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260710T160000
 DTEND;TZID=America/Sao_Paulo:20260710T180000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:FIFA World Cup 2026
+LOCATION:Los Angeles Stadium, Inglewood, USA
 DESCRIPTION:Quarter-finals
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1533,7 +1534,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260711T180000
 DTEND;TZID=America/Sao_Paulo:20260711T200000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:FIFA World Cup 2026
+LOCATION:Miami Stadium, Miami Gardens, USA
 DESCRIPTION:Quarter-finals
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1551,7 +1552,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260711T220000
 DTEND;TZID=America/Sao_Paulo:20260712T000000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:FIFA World Cup 2026
+LOCATION:Kansas City Stadium, Kansas City, USA
 DESCRIPTION:Quarter-finals
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1569,7 +1570,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260714T160000
 DTEND;TZID=America/Sao_Paulo:20260714T180000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Dallas Stadium, Arlington, Texas, USA
+LOCATION:Dallas Stadium, Arlington, USA
 DESCRIPTION:FIFA World Cup 2026
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1587,7 +1588,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260715T160000
 DTEND;TZID=America/Sao_Paulo:20260715T180000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Atlanta Stadium, Atlanta, Georgia, USA
+LOCATION:Atlanta Stadium, Atlanta, USA
 DESCRIPTION:FIFA World Cup 2026
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1605,7 +1606,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260718T180000
 DTEND;TZID=America/Sao_Paulo:20260718T200000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Miami Stadium, Miami Gardens, Florida, USA
+LOCATION:Miami Stadium, Miami Gardens, USA
 DESCRIPTION:Bronze final (third-place)
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1623,7 +1624,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260719T160000
 DTEND;TZID=America/Sao_Paulo:20260719T180000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:New York/New Jersey Stadium, East Rutherford, New Jersey, USA
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
 DESCRIPTION:Final
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1641,7 +1642,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260629T173000
 DTEND;TZID=America/Sao_Paulo:20260629T191500
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Estadio BBVA, Monterrey, Nuevo León, Mexico
+LOCATION:Monterrey Stadium, Monterrey, Mexico
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1659,7 +1660,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260630T140000
 DTEND;TZID=America/Sao_Paulo:20260630T160000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:MetLife Stadium, East Rutherford, New Jersey, USA
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1677,7 +1678,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260630T180000
 DTEND;TZID=America/Sao_Paulo:20260630T200000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:AT&T Stadium, Arlington, Texas, USA
+LOCATION:Dallas Stadium, Arlington, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1695,7 +1696,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260701T130000
 DTEND;TZID=America/Sao_Paulo:20260701T150000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Mercedes-Benz Stadium, Atlanta, Georgia, USA
+LOCATION:Atlanta Stadium, Atlanta, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1713,7 +1714,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260701T170000
 DTEND;TZID=America/Sao_Paulo:20260701T190000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Levi's Stadium, Santa Clara, California, USA
+LOCATION:San Francisco Bay Area Stadium, Santa Clara, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1731,7 +1732,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260702T160000
 DTEND;TZID=America/Sao_Paulo:20260702T180000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:BC Place, Vancouver, British Columbia, Canada
+LOCATION:Vancouver Stadium, Vancouver, Canada
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1749,7 +1750,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260702T200000
 DTEND;TZID=America/Sao_Paulo:20260702T220000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:BMO Field, Toronto, Ontario, Canada
+LOCATION:Toronto Stadium, Toronto, Canada
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1767,7 +1768,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260703T150000
 DTEND;TZID=America/Sao_Paulo:20260703T170000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Hard Rock Stadium, Miami Gardens, Florida, USA
+LOCATION:Miami Stadium, Miami Gardens, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1785,7 +1786,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260703T190000
 DTEND;TZID=America/Sao_Paulo:20260703T210000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:GEHA Field at Arrowhead Stadium, Kansas City, Missouri, USA
+LOCATION:Kansas City Stadium, Kansas City, USA
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1803,7 +1804,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260704T180000
 DTEND;TZID=America/Sao_Paulo:20260704T200000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:NRG Stadium, Houston, Texas, USA
+LOCATION:Houston Stadium, Houston, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1819,9 +1820,9 @@ BEGIN:VEVENT
 UID:d5d78df10159fb8b8eb20110ccdb04419264d375@fifa-world-cup-2026
 DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260703T223000
-DTEND;TZID=America/Sao_Paulo:20260704T001500
+DTEND;TZID=America/Sao_Paulo:20260704T003000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:Estadio Akron, Guadalajara, Jalisco, Mexico
+LOCATION:Guadalajara Stadium, Guadalajara, Mexico
 DESCRIPTION:Round of 32
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1839,7 +1840,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260706T160000
 DTEND;TZID=America/Sao_Paulo:20260706T180000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:AT&T Stadium, Arlington, Texas, USA
+LOCATION:Dallas Stadium, Arlington, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1857,7 +1858,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260707T130000
 DTEND;TZID=America/Sao_Paulo:20260707T150000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:SoFi Stadium, Los Angeles, California, USA
+LOCATION:Los Angeles Stadium, Inglewood, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
@@ -1875,7 +1876,7 @@ DTSTAMP:20260518T011006Z
 DTSTART;TZID=America/Sao_Paulo:20260707T170000
 DTEND;TZID=America/Sao_Paulo:20260707T190000
 SUMMARY:🏆 ... vs 🏆 ...
-LOCATION:MetLife Stadium, East Rutherford, New Jersey, USA
+LOCATION:New York New Jersey Stadium, East Rutherford, USA
 DESCRIPTION:Round of 16
 STATUS:CONFIRMED
 CLASS:PUBLIC
