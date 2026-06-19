@@ -136,7 +136,7 @@ UID:67d1698ff4ccb2a6da69b3ba7b2de407b9951564@fifa-world-cup-2026
 DTSTAMP:20260520T140500Z
 DTSTART:20260614T010000Z
 DURATION:PT2H
-SUMMARY:🇭🇹 Haiti vs 🏴 Scotland
+SUMMARY:🇭🇹 Haiti vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
 LOCATION:Boston Stadium\, Foxborough\, USA
 DESCRIPTION:Group C - Group Stage - Match #5
 STATUS:CONFIRMED
@@ -388,7 +388,7 @@ UID:3f66c7f2fcd20bf9201b974999cd9dedb970fb64@fifa-world-cup-2026
 DTSTAMP:20260520T140500Z
 DTSTART:20260617T200000Z
 DURATION:PT2H
-SUMMARY:🏴 England vs 🇭🇷 Croatia
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇭🇷 Croatia
 LOCATION:Dallas Stadium\, Arlington\, USA
 DESCRIPTION:Group L - Group Stage - Match #22
 STATUS:CONFIRMED
@@ -514,7 +514,7 @@ UID:8a89cef4cb8c9e60f9168a7e35d212f15e157261@fifa-world-cup-2026
 DTSTAMP:20260520T140500Z
 DTSTART:20260619T220000Z
 DURATION:PT2H
-SUMMARY:🏴 Scotland vs 🇲🇦 Morocco
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇲🇦 Morocco
 LOCATION:Boston Stadium\, Foxborough\, USA
 DESCRIPTION:Group C - Group Stage - Match #30
 STATUS:CONFIRMED
@@ -820,7 +820,7 @@ UID:9eb3a3986b786a2c501f2ee146045842611b84ad@fifa-world-cup-2026
 DTSTAMP:20260520T140500Z
 DTSTART:20260623T200000Z
 DURATION:PT2H
-SUMMARY:🏴 England vs 🇬🇭 Ghana
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇬🇭 Ghana
 LOCATION:San Francisco Bay Area Stadium\, Santa Clara\, USA
 DESCRIPTION:Group L - Group Stage - Match #45
 STATUS:CONFIRMED
@@ -892,7 +892,7 @@ UID:6c16e15b1bad43ce2814a4a75eff14e4fbc6af41@fifa-world-cup-2026
 DTSTAMP:20260520T140500Z
 DTSTART:20260624T220000Z
 DURATION:PT2H
-SUMMARY:🏴 Scotland vs 🇧🇷 Brazil
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇧🇷 Brazil
 LOCATION:Miami Stadium\, Miami Gardens\, USA
 DESCRIPTION:Group C - Group Stage - Match #49
 STATUS:CONFIRMED
@@ -1216,7 +1216,7 @@ UID:4d2bafe32c00438ed912712d19e9fbc2eee448cc@fifa-world-cup-2026
 DTSTAMP:20260520T140500Z
 DTSTART:20260627T210000Z
 DURATION:PT2H
-SUMMARY:🇵🇦 Panama vs 🏴 England
+SUMMARY:🇵🇦 Panama vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 LOCATION:New York/New Jersey Stadium\, East Rutherford\, USA
 DESCRIPTION:Group L - Group Stage - Match #67
 STATUS:CONFIRMED
